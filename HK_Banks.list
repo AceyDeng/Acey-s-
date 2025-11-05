@@ -1,0 +1,11 @@
+# 香港主要银行全域直连规则 for Quantumult X
+# 作者: Acey
+# 格式: HOST-SUFFIX（统一由 force-policy 生效）
+# —— 香港主要银行域名（建议直连）——
+
+HOST-SUFFIX,bochk.com
+HOST-SUFFIX,hsbc.com.hk
+HOST-SUFFIX,hsbc.com
+HOST-SUFFIX,hsbcnet.com
+HOST-SUFFIX,za.group
+HOST-SUFFIX,za.com

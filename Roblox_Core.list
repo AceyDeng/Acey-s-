@@ -1,0 +1,29 @@
+# Roblox 核心服务 + 常用子域名 规则 for Quantumult X
+# 作者: Acey
+# 格式：HOST-SUFFIX + IP6-CIDR（供规则订阅使用）
+
+HOST-SUFFIX,roblox.com
+HOST-SUFFIX,rbxcdn.com
+HOST-SUFFIX,rbxinfra.net
+HOST-SUFFIX,api.roblox.com
+HOST-SUFFIX,auth.roblox.com
+HOST-SUFFIX,chat.roblox.com
+HOST-SUFFIX,assetdelivery.roblox.com
+HOST-SUFFIX,thumbnails.roblox.com
+HOST-SUFFIX,clientsettings.roblox.com
+HOST-SUFFIX,avatar.roblox.com
+HOST-SUFFIX,contentstore.roblox.com
+HOST-SUFFIX,ads.roblox.com
+HOST-SUFFIX,ncs.roblox.com
+HOST-SUFFIX,metrics.roblox.com
+HOST-SUFFIX,ecsv2.roblox.com
+HOST-SUFFIX,gamejoin.roblox.com
+HOST-SUFFIX,telemetry.roblox.com
+HOST-SUFFIX,lms.roblox.com
+HOST-SUFFIX,presence.roblox.com
+
+# === 备用 / 稳定性提升（IPv4 & IPv6） ===
+IP-CIDR,128.116.21.0/24,no-resolve
+IP-CIDR,128.116.32.0/24,no-resolve
+IP6-CIDR,2606:4700::/32,no-resolve
+IP6-CIDR,2a04:4e40::/32,no-resolve

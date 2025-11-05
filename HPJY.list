@@ -1,0 +1,36 @@
+# =====================================
+# 和平精英 (Game for Peace) 直连规则
+# 作者: Acey
+# =====================================
+
+# === 核心游戏域名 ===
+HOST-SUFFIX,game.qq.com,DIRECT
+HOST-SUFFIX,hpjy.game.qq.com,DIRECT
+HOST-SUFFIX,tdm.qq.com,DIRECT
+HOST-SUFFIX,teg.tencent-cloud.net,DIRECT
+HOST-SUFFIX,hd.hgame.com,DIRECT
+HOST-SUFFIX,cdn.hgame.com,DIRECT
+HOST-SUFFIX,ams.game.qq.com,DIRECT
+HOST-SUFFIX,cdn.qq.com,DIRECT
+HOST-SUFFIX,gcloud.qq.com,DIRECT
+
+# === 国服服节点 / 关键字匹配 ===
+HOST-KEYWORD,kapok-,DIRECT
+HOST-KEYWORD,hpjy,DIRECT
+HOST-KEYWORD,tencentcloud,DIRECT
+HOST-KEYWORD,game.qq.com,DIRECT
+
+# === App 识别（User-Agent 直连） ===
+USER-AGENT,HPJY,DIRECT
+USER-AGENT,TencentMobileGame,DIRECT
+USER-AGENT,GameForPeace,DIRECT
+USER-AGENT,com.tencent.tmgp.pubgmhd,DIRECT
+
+# === 网络与 DNS 优化（解析稳定） ===
+IP-CIDR,1.1.1.1/32,DIRECT,no-resolve
+IP-CIDR,8.8.8.8/32,DIRECT,no-resolve
+IP-CIDR,119.29.29.29/32,DIRECT,no-resolve       # 腾讯 DNS
+IP6-CIDR,2606:4700::/32,DIRECT,no-resolve
+IP6-CIDR,2402:4e00::/32,DIRECT,no-resolve        # 腾讯云 IPv6 段
+
+# === 结束 ===

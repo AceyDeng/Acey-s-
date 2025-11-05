@@ -1,0 +1,19 @@
+# === 抖音 (Aweme) 安全细化版 ===
+HOST-SUFFIX,amemv.com,DIRECT
+HOST-SUFFIX,douyin.com,DIRECT
+HOST-SUFFIX,douyincdn.com,DIRECT
+HOST-SUFFIX,pstatp.com,DIRECT
+HOST-SUFFIX,bytecdn.cn,DIRECT
+HOST-SUFFIX,bytedance.com,DIRECT
+HOST-SUFFIX,byteimg.com,DIRECT
+HOST-SUFFIX,ixigua.com,DIRECT
+
+# === 抖音专属 snssdk 子域名 ===
+HOST-KEYWORD,aweme.snssdk.com,DIRECT
+HOST-KEYWORD,awemevideo.snssdk.com,DIRECT
+HOST-KEYWORD,awemev.snssdk.com,DIRECT
+HOST-KEYWORD,douyin.snssdk.com,DIRECT
+
+# === User-Agent 精准识别 ===
+USER-AGENT,Aweme,DIRECT
+USER-AGENT,douyin,DIRECT

@@ -1,0 +1,22 @@
+# =========================================
+# Tello / MyTello 通话 + 主站 全域访问规则
+# 作者: Acey
+# =========================================
+
+# === 官方主域（Tello 移动通信）===
+HOST-SUFFIX,tello.com,Tello
+HOST-SUFFIX,auth.tello.com,Tello
+HOST-SUFFIX,api.tello.com,Tello
+
+# === MyTello 国际通话主域 ===
+HOST-SUFFIX,mytello.com,Tello
+
+# === KeepCalling 合作接口（API 与通话桥接）===
+HOST-SUFFIX,keepcalling.net,Tello
+HOST-SUFFIX,mobileapi.keepcalling.net,Tello
+HOST-SUFFIX,api.keepcalling.net,Tello
+
+# === DNS 解析稳定优化（建议保留）===
+IP-CIDR,1.1.1.1/32,DIRECT,no-resolve     # Cloudflare DNS
+IP-CIDR,8.8.8.8/32,DIRECT,no-resolve     # Google DNS
+IP6-CIDR,2606:4700::/32,DIRECT,no-resolve # Cloudflare IPv6

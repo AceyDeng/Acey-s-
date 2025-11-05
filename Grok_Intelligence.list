@@ -1,0 +1,23 @@
+# Grok (xAI) 全功能访问规则 for Quantumult X
+# 作者: Acey
+# 格式: HOST-SUFFIX + IP6-CIDR
+# —— Grok 相关域名（统一由 force-policy 生效）——
+
+HOST-SUFFIX,x.ai
+HOST-SUFFIX,grok.x.ai
+HOST-SUFFIX,console.x.ai
+HOST-SUFFIX,docs.x.ai
+HOST-SUFFIX,api.x.ai
+
+# === X 平台（Twitter / X.com 集成）===
+HOST-SUFFIX,x.com
+HOST-SUFFIX,grok.x.com
+HOST-SUFFIX,grok.com
+
+# === IPv4 & IPv6 (备用节点与解析稳定性) ===
+IP-CIDR,104.244.42.0/24,no-resolve
+IP-CIDR,104.244.43.0/24,no-resolve
+IP-CIDR,104.244.45.0/24,no-resolve
+IP-CIDR,104.244.46.0/24,no-resolve
+IP-CIDR,104.244.59.0/24,no-resolve
+IP6-CIDR,2606:1f80::/32,no-resolve

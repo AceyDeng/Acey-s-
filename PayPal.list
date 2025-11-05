@@ -1,0 +1,11 @@
+# PayPal 全域通配规则 for Quantumult X
+# 作者: Acey
+# 格式: HOST-SUFFIX（统一由 force-policy 生效）
+# —— PayPal 相关域名（建议走美国代理组 PayPal）——
+
+HOST-SUFFIX,paypal.com
+HOST-SUFFIX,paypalobjects.com
+HOST-SUFFIX,paypal.me
+HOST-SUFFIX,paypal-mktg.com
+HOST-SUFFIX,paypalc3.com
+HOST-SUFFIX,paypalc3.net
