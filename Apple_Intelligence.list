@@ -9,7 +9,7 @@ HOST-SUFFIX,apple-relay.fastly-edge.com
 HOST-SUFFIX,cp4.cloudflare.com
 HOST-SUFFIX,gspe1-ssl.ls.apple.com
 HOST-SUFFIX,gateway.icloud.com
-
+HOST-SUFFIX,apps.mzstatic.com
 
 # === IPv4 & IPv6 (建议保留以提升解析稳定性) ===
 IP-CIDR,17.0.0.0/8,no-resolve
