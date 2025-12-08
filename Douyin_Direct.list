@@ -7,6 +7,7 @@ HOST-SUFFIX,bytecdn.cn,DIRECT
 HOST-SUFFIX,bytedance.com,DIRECT
 HOST-SUFFIX,byteimg.com,DIRECT
 HOST-SUFFIX,ixigua.com,DIRECT
+HOST-SUFFIX,cn,DIRECT
 
 # === 抖音专属 snssdk 子域名 ===
 HOST-KEYWORD,aweme.snssdk.com,DIRECT
