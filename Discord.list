@@ -1,0 +1,21 @@
+[filter_local]
+# Discord 核心域名（策略组留空，导入后统一选择）
+HOST-SUFFIX, discord.com
+HOST-SUFFIX, discord.gg
+HOST-SUFFIX, discordapp.com
+HOST-SUFFIX, discordapp.net
+HOST-SUFFIX, discord.co
+HOST-SUFFIX, discord.media
+HOST-SUFFIX, discord.new
+HOST-SUFFIX, discordsays.com
+
+# 具体常用子域名 / CDN
+HOST, gateway.discord.gg
+HOST, media.discordapp.net
+HOST, images-ext-1.discordapp.net
+HOST, images-ext-2.discordapp.net
+HOST, discord-attachments-uploads-prd.storage.googleapis.com
+
+# 可选：IP-CIDR 兜底（如果需要可以取消注释，Discord 主要 IP 段）
+IP-CIDR, 162.159.0.0/16, no-resolve
+IP-CIDR, 104.16.0.0/12, no-resolve
