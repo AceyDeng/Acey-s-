@@ -1,0 +1,21 @@
+[filter_local]
+# GitHub 核心域名（策略组留空，导入后统一选择）
+HOST-SUFFIX, github.com
+HOST-SUFFIX, githubusercontent.com
+HOST-SUFFIX, github.io
+HOST-SUFFIX, githubassets.com
+HOST-SUFFIX, github.global.ssl.fastly.net
+
+# 具体常用子域名 / CDN
+HOST, raw.githubusercontent.com
+HOST, camo.githubusercontent.com
+HOST, avatars.githubusercontent.com
+HOST, avatars0.githubusercontent.com
+HOST, avatars1.githubusercontent.com
+HOST, avatars2.githubusercontent.com
+HOST, avatars3.githubusercontent.com
+HOST, avatars4.githubusercontent.com
+HOST, avatars5.githubusercontent.com
+HOST, github.githubassets.com
+HOST, customer-stories-feed.github.com
+HOST, media.githubusercontent.com
