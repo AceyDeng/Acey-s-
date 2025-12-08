@@ -33,3 +33,4 @@ HOST, login.tt388.com
 HOST, cdn.ttvoice.com
 HOST, game.tt388.com
 HOST, sdk.ttvoice.com
+HOST-SUFFIX,cn
