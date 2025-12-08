@@ -13,6 +13,21 @@ HOST-SUFFIX,api.x.ai
 HOST-SUFFIX,x.com
 HOST-SUFFIX,grok.x.com
 HOST-SUFFIX,grok.com
+HOST-SUFFIX, twitter.com
+HOST-SUFFIX, twimg.com
+HOST-SUFFIX, t.co
+HOST-SUFFIX, twvideo.net
+HOST-SUFFIX, xtwitter.com
+
+# 具体常用子域名 / CDN
+HOST, api.twitter.com
+HOST, upload.twitter.com
+HOST, video.twimg.com
+HOST, pbs.twimg.com
+HOST, abs.twimg.com
+HOST, ton.twitter.com
+HOST, syndication.twitter.com
+HOST, syndication.twimg.com
 
 # === IPv4 & IPv6 (备用节点与解析稳定性) ===
 IP-CIDR,104.244.42.0/24,no-resolve
