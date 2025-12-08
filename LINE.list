@@ -3,7 +3,6 @@
 
 # 核心域名（已合并去重）
 HOST-SUFFIX, line.me
-HOST-SUFFIX, lin.ee                  # 新增：短链服务
 HOST-SUFFIX, line-apps.com
 HOST-SUFFIX, line-cdn.net
 HOST-SUFFIX, line-scdn.net
