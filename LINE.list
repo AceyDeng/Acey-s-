@@ -1,17 +1,22 @@
 [filter_local]
-# LINE 全平台核心域名（包括 watchOS，策略组留空）
+# LINE 全平台核心域名（包括 iOS / watchOS / macOS，策略组留空，导入后统一选择）
 
-HOST-SUFFIX, line.me
+# 你提供的核心域名
+HOST-SUFFIX, lin.ee
 HOST-SUFFIX, line-apps.com
 HOST-SUFFIX, line-cdn.net
 HOST-SUFFIX, line-scdn.net
+HOST-SUFFIX, line.me
 HOST-SUFFIX, linecorp.com
 HOST-SUFFIX, naver.jp
 HOST-SUFFIX, nhncorp.jp
+
+# 补充常用核心域名（提升稳定性）
 HOST-SUFFIX, nhn.com
 HOST-SUFFIX, naver.com
 HOST-SUFFIX, line.naver.jp
 
+# 核心子域名（通用）
 HOST, access.line.me
 HOST, obs.line-scdn.net
 HOST, ga2.line.naver.jp
@@ -20,9 +25,13 @@ HOST, gw.line.naver.jp
 HOST, notify.line.me
 HOST, term.line.me
 
-HOST-SUFFIX, watch.line.me
-HOST-SUFFIX, api.watch.line.me
+# watchOS (Apple Watch) 专用域名（重点补充）
+HOST-SUFFIX, watch.line.me          # Watch 主入口
+HOST-SUFFIX, api.watch.line.me      # Watch API 接口
+HOST-SUFFIX, watch-cdn.line.me      # Watch 专用 CDN（部分资源）
+HOST-SUFFIX, watch-scdn.line.me     # Watch 媒体加速
 
+# 你提供的 IP-CIDR 兜底（直连稳定性强）
 IP-CIDR,103.2.28.0/22, no-resolve
 IP-CIDR,119.235.224.0/21, no-resolve
 IP-CIDR,119.235.232.0/23, no-resolve
