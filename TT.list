@@ -1,0 +1,35 @@
+[filter_local]
+# 欢游 (HuanYou) + TT语音 (TTVoice) 合并白名单规则
+# 策略组留空，导入后统一选择（建议走国内加速或 DIRECT）
+
+# ==================== 欢游 (HuanYou) ====================
+HOST-SUFFIX, huanyou.com
+HOST-SUFFIX, huanyou.cn
+HOST-SUFFIX, hygame.cn
+HOST-SUFFIX, hygame.com
+HOST-SUFFIX, huanyougame.com
+HOST-SUFFIX, hycdn.cn
+HOST-SUFFIX, hycdn.com
+
+HOST, api.huanyou.com
+HOST, login.huanyou.com
+HOST, game.huanyou.com
+HOST, cdn.huanyou.com
+HOST, download.hygame.cn
+HOST, sdk.huanyou.com
+HOST, pay.huanyou.com
+
+# ==================== TT语音 (TTVoice) ====================
+HOST-SUFFIX, tt388.com
+HOST-SUFFIX, ttvoice.com
+HOST-SUFFIX, tt319.com
+HOST-SUFFIX, yyttvoice.com
+HOST-SUFFIX, ttcdn.cn
+HOST-SUFFIX, ttvoice.cn
+
+HOST, api.tt388.com
+HOST, voice.ttvoice.com
+HOST, login.tt388.com
+HOST, cdn.ttvoice.com
+HOST, game.tt388.com
+HOST, sdk.ttvoice.com
