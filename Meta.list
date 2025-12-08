@@ -33,6 +33,6 @@ HOST-SUFFIX, cdn.whatsapp.net
 HOST-SUFFIX, akamaihd.net
 
 # 可选：IP-CIDR 兜底（如果需要可以取消注释）
-# IP-CIDR, 31.13.64.0/18, no-resolve
-# IP-CIDR, 69.63.176.0/20, no-resolve
-# IP-CIDR, 66.220.144.0/20, no-resolve
+IP-CIDR, 31.13.64.0/18, no-resolve
+IP-CIDR, 69.63.176.0/20, no-resolve
+IP-CIDR, 66.220.144.0/20, no-resolve
