@@ -1,0 +1,38 @@
+[filter_local]
+# Meta 全家桶核心域名（策略组留空，导入后统一选择）
+HOST-SUFFIX, facebook.com
+HOST-SUFFIX, fb.com
+HOST-SUFFIX, fbcdn.net
+HOST-SUFFIX, fbsbx.com
+HOST-SUFFIX, messenger.com
+HOST-SUFFIX, instagram.com
+HOST-SUFFIX, igcdn.com
+HOST-SUFFIX, threads.net
+HOST-SUFFIX, threads.com
+HOST-SUFFIX, whatsapp.com
+HOST-SUFFIX, whatsapp.net
+HOST-SUFFIX, meta.com
+
+# 具体常用子域名
+HOST, graph.facebook.com
+HOST, api.facebook.com
+HOST, edge-mqtt.facebook.com
+HOST, star.c10r.facebook.com
+HOST, star-mini.c10r.facebook.com
+HOST, mqtt-mini.facebook.com
+HOST, connect.facebook.net
+HOST, graph.instagram.com
+HOST, api.instagram.com
+HOST, web.whatsapp.com
+HOST, portal.fb.com
+
+# WhatsApp 媒体 CDN（很重要）
+HOST-SUFFIX, cdn.whatsapp.net
+
+# 其他可能用到的旧/备用 CDN
+HOST-SUFFIX, akamaihd.net
+
+# 可选：IP-CIDR 兜底（如果需要可以取消注释）
+# IP-CIDR, 31.13.64.0/18, no-resolve
+# IP-CIDR, 69.63.176.0/20, no-resolve
+# IP-CIDR, 66.220.144.0/20, no-resolve
