@@ -1,0 +1,15 @@
+[filter_local]
+# LINE 核心域名（策略组留空，导入后统一选择）
+HOST-SUFFIX, line.me
+HOST-SUFFIX, nhn.com
+HOST-SUFFIX, naver.com
+HOST-SUFFIX, naver.jp
+HOST-SUFFIX, line-scdn.net
+HOST-SUFFIX, line-apps.com
+HOST-SUFFIX, line.naver.jp
+
+# 具体常用子域名
+HOST, access.line.me
+HOST, obs.line-apps.com
+HOST, ga2.line.naver.jp
+HOST, static.line-scdn.net
