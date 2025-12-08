@@ -1,5 +1,6 @@
 [filter_local]
-# LINE 核心域名（策略组留空，导入后统一选择）
+# LINE 全平台核心域名（包括 iOS / watchOS / macOS 等，策略组留空，导入后统一选择）
+
 HOST-SUFFIX, line.me
 HOST-SUFFIX, nhn.com
 HOST-SUFFIX, naver.com
@@ -8,8 +9,15 @@ HOST-SUFFIX, line-scdn.net
 HOST-SUFFIX, line-apps.com
 HOST-SUFFIX, line.naver.jp
 
-# 具体常用子域名
+# 核心子域名（通用 + watchOS 加强）
 HOST, access.line.me
-HOST, obs.line-apps.com
+HOST, obs.line-scdn.net
 HOST, ga2.line.naver.jp
 HOST, static.line-scdn.net
+HOST, gw.line.naver.jp
+HOST, notify.line.me
+HOST, term.line.me
+
+# watchOS 专用（强烈推荐加上）
+HOST-SUFFIX, watch.line.me
+HOST-SUFFIX, api.watch.line.me
