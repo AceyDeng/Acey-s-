@@ -1,19 +1,17 @@
 [filter_local]
-# LINE 全平台核心域名（包括 iOS / watchOS / macOS 等，策略组留空，导入后统一选择）
+# LINE 全平台核心域名（包括 watchOS，策略组留空）
 
-# 核心域名（已合并去重）
 HOST-SUFFIX, line.me
 HOST-SUFFIX, line-apps.com
 HOST-SUFFIX, line-cdn.net
 HOST-SUFFIX, line-scdn.net
-HOST-SUFFIX, linecorp.com            # 新增：LINE 公司官网
+HOST-SUFFIX, linecorp.com
 HOST-SUFFIX, naver.jp
-HOST-SUFFIX, nhncorp.jp              # 新增：NHN 日本
+HOST-SUFFIX, nhncorp.jp
 HOST-SUFFIX, nhn.com
 HOST-SUFFIX, naver.com
 HOST-SUFFIX, line.naver.jp
 
-# 核心子域名（通用 + watchOS 加强）
 HOST, access.line.me
 HOST, obs.line-scdn.net
 HOST, ga2.line.naver.jp
@@ -22,11 +20,9 @@ HOST, gw.line.naver.jp
 HOST, notify.line.me
 HOST, term.line.me
 
-# watchOS 专用
 HOST-SUFFIX, watch.line.me
 HOST-SUFFIX, api.watch.line.me
 
-# IP-CIDR 兜底（新增全部你提供的段，提升直连稳定性）
 IP-CIDR,103.2.28.0/22, no-resolve
 IP-CIDR,119.235.224.0/21, no-resolve
 IP-CIDR,119.235.232.0/23, no-resolve
