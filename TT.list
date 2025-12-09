@@ -20,6 +20,7 @@ HOST, sdk.huanyou.com
 HOST, pay.huanyou.com
 
 # ==================== TT语音 (TTVoice) ====================
+HOST,ios.ttyuyin.com
 HOST-SUFFIX, tt388.com
 HOST-SUFFIX, ttvoice.com
 HOST-SUFFIX, tt319.com
