@@ -1,0 +1,43 @@
+# ===== Kuaishou / Kwai core roots =====
+HOST-SUFFIX,kuaishou.com
+HOST-SUFFIX,gifshow.com
+
+# ===== Main API / business endpoints =====
+HOST,api.gifshow.com
+HOST,api2.gifshow.com
+HOST,api3.gifshow.com
+HOST-SUFFIX,apis.gifshow.com
+HOST,miniapi.gifshow.com
+HOST,open.kuaishou.com
+
+# ===== Upload endpoints =====
+HOST,upload.gifshow.com
+HOST-SUFFIX,uploads.gifshow.com
+HOST-SUFFIX,uploader.gifshow.com
+
+# ===== Playback / live endpoints =====
+HOST,play.gifshow.com
+HOST,live.gifshow.com
+HOST-SUFFIX,lives.gifshow.com
+HOST,live.kuaishou.com
+
+# ===== H5 / shortlink / redirect =====
+HOST,s.kuaishou.com
+HOST,m.kuaishou.com
+HOST,qr.kuaishou.com
+
+# ===== Logging / analytics / push =====
+HOST,ulog.gifshow.com
+HOST-SUFFIX,ulogs.gifshow.com
+HOST,wlog.gifshow.com
+HOST,push.gifshow.com
+
+# ===== Pay / wallet / gifts =====
+HOST,pay.gifshow.com
+HOST,hb.gifshow.com
+HOST,bjrz-pay.gifshow.com
+
+# ===== CDN / media (recommend keep as suffix) =====
+HOST-SUFFIX,yximgs.com
+HOST-SUFFIX,ksyuncdn.com
+HOST-SUFFIX,kwai.com
