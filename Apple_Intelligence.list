@@ -13,8 +13,6 @@ HOST-SUFFIX,gateway.icloud.com.cn
 HOST-SUFFIX,apps.mzstatic.com
 HOST-SUFFIX,apple-relay.akamaized.net
 HOST-SUFFIX,apple-relay.mask.apple-dns.net
-HOST-SUFFIX,http://apple.com
-HOST-SUFFIX,quzzoni.apple.com
 # === IPv4 & IPv6 (建议保留以提升解析稳定性) ===
 IP-CIDR,17.0.0.0/8,no-resolve
 IP-CIDR,104.18.0.0/16,no-resolve
