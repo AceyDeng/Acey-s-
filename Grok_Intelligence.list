@@ -29,7 +29,7 @@ HOST, ton.twitter.com
 HOST, syndication.twitter.com
 HOST, syndication.twimg.com
 
-# === IPv4 & IPv6 (备用节点与解析稳定性) ===
+# === IPv4 & IPv6  ===
 IP-CIDR,104.244.42.0/24,no-resolve
 IP-CIDR,104.244.43.0/24,no-resolve
 IP-CIDR,104.244.45.0/24,no-resolve
