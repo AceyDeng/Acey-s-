@@ -64,6 +64,7 @@ DOMAIN,api.weixin.qq.com
 DOMAIN-SUFFIX,weixin.qq.com
 DOMAIN-SUFFIX,wechat.com
 
-DOMAIN,api.push.apple.com
-DOMAIN-SUFFIX,push.apple.com
-DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,ttyuyin.com
+DOMAIN-SUFFIX,tses.net
+DOMAIN-SUFFIX,gepush.com
+DOMAIN-SUFFIX,getui.com
