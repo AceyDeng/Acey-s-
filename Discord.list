@@ -16,6 +16,6 @@ HOST, images-ext-1.discordapp.net
 HOST, images-ext-2.discordapp.net
 HOST, discord-attachments-uploads-prd.storage.googleapis.com
 
-# 可选：IP-CIDR 兜底（如果需要可以取消注释，Discord 主要 IP 段）
+# 可选：IP-CIDR 兜底
 IP-CIDR, 162.159.0.0/16, no-resolve
 IP-CIDR, 104.16.0.0/12, no-resolve
