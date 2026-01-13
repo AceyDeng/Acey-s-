@@ -1,7 +1,4 @@
 [filter_local]
-# 欢游 (HuanYou) + TT语音 (TTVoice) 合并白名单规则
-# 策略组留空，导入后统一选择（建议走国内加速或 DIRECT）
-
 # ==================== 欢游 (HuanYou) ====================
 HOST-SUFFIX, huanyou.com
 HOST-SUFFIX, huanyou.cn
