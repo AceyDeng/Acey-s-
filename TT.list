@@ -1,35 +1,69 @@
 [filter_local]
-# ==================== 欢游 (HuanYou) ====================
-HOST-SUFFIX, huanyou.com
-HOST-SUFFIX, huanyou.cn
-HOST-SUFFIX, hygame.cn
-HOST-SUFFIX, hygame.com
-HOST-SUFFIX, huanyougame.com
-HOST-SUFFIX, hycdn.cn
-HOST-SUFFIX, hycdn.com
+# ===============================
+# TT 语音 / TTChat / 趣丸 FULL DOMAIN LIST
+# Shadowrocket DOMAIN-SUFFIX MODE
+# ===============================
 
-HOST, api.huanyou.com
-HOST, login.huanyou.com
-HOST, game.huanyou.com
-HOST, cdn.huanyou.com
-HOST, download.hygame.cn
-HOST, sdk.huanyou.com
-HOST, pay.huanyou.com
+DOMAIN-SUFFIX,52tt.com
+DOMAIN-SUFFIX,ttvoice.com
+DOMAIN-SUFFIX,quwan.com
+DOMAIN-SUFFIX,quwankeji.com
 
-# ==================== TT语音 (TTVoice) ====================
-HOST,ios.ttyuyin.com
-HOST-SUFFIX, tt388.com
-HOST-SUFFIX, ttvoice.com
-HOST-SUFFIX, tt319.com
-HOST-SUFFIX, yyttvoice.com
-HOST-SUFFIX, ttcdn.cn
-HOST-SUFFIX, ttvoice.cn
-HOST-SUFFIX,openapi.ttyuyin.com
-HOST, api.tt388.com
-HOST, voice.ttvoice.com
-HOST, login.tt388.com
-HOST, cdn.ttvoice.com
-HOST, game.tt388.com
-HOST, sdk.ttvoice.com
-HOST-SUFFIX,52tt.com
+DOMAIN,api.52tt.com
+DOMAIN,api.ttvoice.com
+DOMAIN,gateway.52tt.com
+DOMAIN,gw.52tt.com
+DOMAIN,ws.52tt.com
+DOMAIN,wss.52tt.com
 
+DOMAIN,auth.52tt.com
+DOMAIN,passport.52tt.com
+DOMAIN,login.52tt.com
+DOMAIN,user.52tt.com
+DOMAIN,account.52tt.com
+
+DOMAIN-SUFFIX,rtc.52tt.com
+DOMAIN-SUFFIX,rtc.ttvoice.com
+DOMAIN-SUFFIX,signal.52tt.com
+DOMAIN-SUFFIX,signal.ttvoice.com
+DOMAIN-SUFFIX,audio.52tt.com
+DOMAIN-SUFFIX,voice.52tt.com
+
+DOMAIN-SUFFIX,cdn.52tt.com
+DOMAIN,static.52tt.com
+DOMAIN,img.52tt.com
+
+DOMAIN-SUFFIX,qcloudcdn.com
+DOMAIN-SUFFIX,myqcloud.com
+DOMAIN-SUFFIX,tencentcloudapi.com
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,alicdn.com
+
+DOMAIN,update.52tt.com
+DOMAIN,upgrade.52tt.com
+DOMAIN,patch.52tt.com
+DOMAIN,hotfix.52tt.com
+DOMAIN,download.52tt.com
+
+DOMAIN,log.52tt.com
+DOMAIN,report.52tt.com
+DOMAIN,crash.52tt.com
+DOMAIN,stat.52tt.com
+DOMAIN,data.52tt.com
+
+DOMAIN-SUFFIX,bugly.qq.com
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,umengcloud.com
+DOMAIN-SUFFIX,firebaseio.com
+
+DOMAIN,open.qq.com
+DOMAIN,graph.qq.com
+DOMAIN-SUFFIX,qq.com
+
+DOMAIN,api.weixin.qq.com
+DOMAIN-SUFFIX,weixin.qq.com
+DOMAIN-SUFFIX,wechat.com
+
+DOMAIN,api.push.apple.com
+DOMAIN-SUFFIX,push.apple.com
+DOMAIN-SUFFIX,apple.com
