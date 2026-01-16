@@ -1,0 +1,48 @@
+# ================================
+# Yahoo Full Domain List
+# For Shadowrocket / Loon / Surge
+# ================================
+
+# ---- Yahoo Core ----
+DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,yahoo.net
+DOMAIN-SUFFIX,yimg.com
+DOMAIN-SUFFIX,s.yimg.com
+
+# ---- Yahoo Mail ----
+DOMAIN-SUFFIX,mail.yahoo.com
+DOMAIN-SUFFIX,mg.mail.yahoo.com
+DOMAIN-SUFFIX,imap.mail.yahoo.com
+DOMAIN-SUFFIX,smtp.mail.yahoo.com
+DOMAIN-SUFFIX,pop.mail.yahoo.com
+
+# ---- Yahoo Finance ----
+DOMAIN-SUFFIX,finance.yahoo.com
+DOMAIN-SUFFIX,query1.finance.yahoo.com
+DOMAIN-SUFFIX,query2.finance.yahoo.com
+
+# ---- Yahoo Services ----
+DOMAIN-SUFFIX,news.yahoo.com
+DOMAIN-SUFFIX,search.yahoo.com
+DOMAIN-SUFFIX,sports.yahoo.com
+DOMAIN-SUFFIX,weather.yahoo.com
+
+# ---- Yahoo Ads / Analytics ----
+DOMAIN-SUFFIX,ads.yahoo.com
+DOMAIN-SUFFIX,analytics.yahoo.com
+
+# ---- Yahoo Static / API ----
+DOMAIN-SUFFIX,geo.yahoo.com
+DOMAIN-SUFFIX,udc.yahoo.com
+DOMAIN-SUFFIX,fc.yahoo.com
+
+# ---- Yahoo Japan (JP) ----
+DOMAIN-SUFFIX,yahoo.co.jp
+DOMAIN-SUFFIX,www.yahoo.co.jp
+DOMAIN-SUFFIX,mail.yahoo.co.jp
+DOMAIN-SUFFIX,news.yahoo.co.jp
+DOMAIN-SUFFIX,finance.yahoo.co.jp
+DOMAIN-SUFFIX,sports.yahoo.co.jp
+DOMAIN-SUFFIX,weather.yahoo.co.jp
+DOMAIN-SUFFIX,shopping.yahoo.co.jp
+DOMAIN-SUFFIX,auctions.yahoo.co.jp
