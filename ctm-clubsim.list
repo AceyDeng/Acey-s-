@@ -1,0 +1,24 @@
+# =========================================
+# CTM (Macau) + ClubSIM (Hong Kong) Domain List
+# For Shadowrocket / Loon / Surge
+# =========================================
+
+# ===== ClubSIM Hong Kong =====
+DOMAIN-SUFFIX,clubsim.com.hk
+DOMAIN-SUFFIX,www.clubsim.com.hk
+DOMAIN-SUFFIX,account.clubsim.com.hk
+DOMAIN-SUFFIX,app.clubsim.com.hk
+DOMAIN-SUFFIX,api.clubsim.com.hk
+DOMAIN-SUFFIX,static.clubsim.com.hk
+DOMAIN-SUFFIX,cdn.clubsim.com.hk
+
+# ===== CTM Macau =====
+DOMAIN-SUFFIX,ctm.net
+DOMAIN-SUFFIX,www.ctm.net
+DOMAIN-SUFFIX,ctm.com.mo
+DOMAIN-SUFFIX,www.ctm.com.mo
+DOMAIN-SUFFIX,myctm.ctm.net
+DOMAIN-SUFFIX,care.ctm.net
+DOMAIN-SUFFIX,api.ctm.net
+DOMAIN-SUFFIX,static.ctm.net
+DOMAIN-SUFFIX,cdn.ctm.net
