@@ -1,0 +1,29 @@
+# =========================================
+# Octopus (Hong Kong) Domain List
+# For Shadowrocket / Loon / Surge
+# =========================================
+
+# ---- Core ----
+DOMAIN-SUFFIX,octopus.com.hk
+DOMAIN-SUFFIX,www.octopus.com.hk
+
+# ---- Octopus App / Account ----
+DOMAIN-SUFFIX,app.octopus.com.hk
+DOMAIN-SUFFIX,account.octopus.com.hk
+DOMAIN-SUFFIX,login.octopus.com.hk
+
+# ---- O! ePay / Wallet ----
+DOMAIN-SUFFIX,oepay.com.hk
+DOMAIN-SUFFIX,www.oepay.com.hk
+
+# ---- API / Backend ----
+DOMAIN-SUFFIX,api.octopus.com.hk
+DOMAIN-SUFFIX,services.octopus.com.hk
+
+# ---- Merchant / Business ----
+DOMAIN-SUFFIX,business.octopus.com.hk
+DOMAIN-SUFFIX,merchant.octopus.com.hk
+
+# ---- Static / CDN ----
+DOMAIN-SUFFIX,static.octopus.com.hk
+DOMAIN-SUFFIX,cdn.octopus.com.hk
