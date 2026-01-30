@@ -13,6 +13,7 @@ HOST-SUFFIX,cdn.hgame.com,DIRECT
 HOST-SUFFIX,ams.game.qq.com,DIRECT
 HOST-SUFFIX,cdn.qq.com,DIRECT
 HOST-SUFFIX,gcloud.qq.com,DIRECT
+DOMAIN-SUFFIX,cn.voice.gcloudcs.com
 
 # === 国服服节点 / 关键字匹配 ===
 HOST-KEYWORD,kapok-,DIRECT
