@@ -3,33 +3,24 @@
 # 格式: HOST-SUFFIX + IP6-CIDR
 # —— Grok 相关域名（统一由 force-policy 生效）——
 
+# === xAI / Grok ===
 HOST-SUFFIX,x.ai
-HOST-SUFFIX,grok.x.ai
-HOST-SUFFIX,console.x.ai
-HOST-SUFFIX,docs.x.ai
-HOST-SUFFIX,api.x.ai
-
-# === X 平台（Twitter / X.com 集成）===
-HOST-SUFFIX,x.com
-HOST-SUFFIX,grok.x.com
 HOST-SUFFIX,grok.com
-HOST-SUFFIX, twitter.com
-HOST-SUFFIX, twimg.com
-HOST-SUFFIX, t.co
-HOST-SUFFIX, twvideo.net
-HOST-SUFFIX, xtwitter.com
 
-# 具体常用子域名 / CDN
-HOST, api.twitter.com
-HOST, upload.twitter.com
-HOST, video.twimg.com
-HOST, pbs.twimg.com
-HOST, abs.twimg.com
-HOST, ton.twitter.com
-HOST, syndication.twitter.com
-HOST, syndication.twimg.com
+# === X / Twitter ===
+HOST-SUFFIX,x.com
+HOST-SUFFIX,twitter.com
+HOST-SUFFIX,twimg.com
+HOST-SUFFIX,t.co
+HOST-SUFFIX,twvideo.net
+HOST-SUFFIX,xtwitter.com
 
-# === IPv4 & IPv6  ===
+# === 补充关键 CDN / API ===
+HOST-SUFFIX,syndication.twimg.com
+HOST-SUFFIX,platform.twitter.com
+HOST-SUFFIX,api.x.com
+
+# === IP（可选）===
 IP-CIDR,104.244.42.0/24,no-resolve
 IP-CIDR,104.244.43.0/24,no-resolve
 IP-CIDR,104.244.45.0/24,no-resolve
