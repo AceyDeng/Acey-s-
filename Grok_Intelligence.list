@@ -1,29 +1,19 @@
-# Grok (xAI) 全功能访问规则 for Quantumult X
-# 作者: Acey
-# 格式: HOST-SUFFIX + IP6-CIDR
-# —— Grok 相关域名（统一由 force-policy 生效）——
-
-# === xAI / Grok ===
-HOST-SUFFIX,x.ai
-HOST-SUFFIX,grok.com
-
-# === X / Twitter ===
-HOST-SUFFIX,x.com
-HOST-SUFFIX,twitter.com
-HOST-SUFFIX,twimg.com
-HOST-SUFFIX,t.co
-HOST-SUFFIX,twvideo.net
-HOST-SUFFIX,xtwitter.com
-
-# === 补充关键 CDN / API ===
-HOST-SUFFIX,syndication.twimg.com
-HOST-SUFFIX,platform.twitter.com
-HOST-SUFFIX,api.x.com
-
-# === IP（可选）===
-IP-CIDR,104.244.42.0/24,no-resolve
-IP-CIDR,104.244.43.0/24,no-resolve
-IP-CIDR,104.244.45.0/24,no-resolve
-IP-CIDR,104.244.46.0/24,no-resolve
-IP-CIDR,104.244.59.0/24,no-resolve
-IP6-CIDR,2606:1f80::/32,no-resolve
+# === X ===
+DOMAIN-SUFFIX,x.com,X
+DOMAIN-SUFFIX,twitter.com,X
+DOMAIN-SUFFIX,t.co,X
+DOMAIN-SUFFIX,twimg.com,X
+DOMAIN-SUFFIX,pbs.twimg.com,X
+DOMAIN-SUFFIX,video.twimg.com,X
+DOMAIN-SUFFIX,api.x.com,X
+DOMAIN-SUFFIX,api.twitter.com,X
+DOMAIN-SUFFIX,graphql.twitter.com,X
+DOMAIN-SUFFIX,abs.twimg.com,X
+DOMAIN-SUFFIX,ton.twimg.com,X
+DOMAIN-SUFFIX,xusercontent.com,X
+DOMAIN-KEYWORD,twitter,X
+# === GROK / xAI ===
+DOMAIN-SUFFIX,grok.com,X
+DOMAIN-SUFFIX,x.ai,X
+DOMAIN-SUFFIX,api.x.ai,X
+DOMAIN-SUFFIX,chat.x.ai,X
