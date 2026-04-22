@@ -10,9 +10,3 @@ HOST-SUFFIX,cp4.cloudflare.com
 HOST-SUFFIX,gspe1-ssl.ls.apple.com
 HOST-SUFFIX,gateway.icloud.com
 HOST-SUFFIX,gateway.icloud.com.cn
-# === IPv4 & IPv6 (建议保留以提升解析稳定性) ===
-IP-CIDR,17.0.0.0/8,no-resolve
-IP-CIDR,104.18.0.0/16,no-resolve
-IP-CIDR,151.101.0.0/16,no-resolve
-IP6-CIDR,2606:4700::/32,no-resolve
-IP6-CIDR,2a04:4e40::/32,no-resolve
