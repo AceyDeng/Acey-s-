@@ -1,17 +1,3 @@
-# === X ===
-DOMAIN-SUFFIX,x.com,X
-DOMAIN-SUFFIX,twitter.com,X
-DOMAIN-SUFFIX,t.co,X
-DOMAIN-SUFFIX,twimg.com,X
-DOMAIN-SUFFIX,pbs.twimg.com,X
-DOMAIN-SUFFIX,video.twimg.com,X
-DOMAIN-SUFFIX,api.x.com,X
-DOMAIN-SUFFIX,api.twitter.com,X
-DOMAIN-SUFFIX,graphql.twitter.com,X
-DOMAIN-SUFFIX,abs.twimg.com,X
-DOMAIN-SUFFIX,ton.twimg.com,X
-DOMAIN-SUFFIX,xusercontent.com,X
-DOMAIN-KEYWORD,twitter,X
 # === GROK / xAI ===
 DOMAIN-SUFFIX,grok.com,X
 DOMAIN-SUFFIX,x.ai,X
