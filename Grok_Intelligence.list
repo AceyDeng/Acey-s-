@@ -1,5 +1,5 @@
 # === GROK / xAI ===
-DOMAIN-SUFFIX,grok.com,X
-DOMAIN-SUFFIX,x.ai,X
-DOMAIN-SUFFIX,api.x.ai,X
-DOMAIN-SUFFIX,chat.x.ai,X
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,api.x.ai
+DOMAIN-SUFFIX,chat.x.ai
