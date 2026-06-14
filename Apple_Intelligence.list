@@ -1,12 +1,11 @@
-# Apple Intelligence for Quantumult X (HOST-SUFFIX + IP6-CIDR)
+# Apple Intelligence for Shadowrocket 
 
-# —— Apple Intelligence 相关域名（统一由 force-policy 生效）——
-HOST-SUFFIX,guzzoni.apple.com
-HOST-SUFFIX,smoot.apple.com
-HOST-SUFFIX,apple-relay.apple.com
-HOST-SUFFIX,apple-relay.cloudflare.com
-HOST-SUFFIX,apple-relay.fastly-edge.com
-HOST-SUFFIX,cp4.cloudflare.com
-HOST-SUFFIX,gspe1-ssl.ls.apple.com
-HOST-SUFFIX,gateway.icloud.com
-HOST-SUFFIX,gateway.icloud.com.cn
+DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,gateway.icloud.com.cn
