@@ -1,20 +1,20 @@
-[filter_local]
+
 # Snapchat 核心域名（策略组留空，导入后统一选择）
-HOST-SUFFIX, snapchat.com
-HOST-SUFFIX, snap.com
-HOST-SUFFIX, sc-cdn.net
-HOST-SUFFIX, sc-static.net
-HOST-SUFFIX, sc-corp.net
-HOST-SUFFIX, sc-gw.com
-HOST-SUFFIX, sc-jpl.com
-HOST-SUFFIX, sc-prod.net
-HOST-SUFFIX, feelinsonice.com
+DOMAIN-SUFFIX, snapchat.com
+DOMAIN-SUFFIX, snap.com
+DOMAIN-SUFFIX, sc-cdn.net
+DOMAIN-SUFFIX, sc-static.net
+DOMAIN-SUFFIX, sc-corp.net
+DOMAIN-SUFFIX, sc-gw.com
+DOMAIN-SUFFIX, sc-jpl.com
+DOMAIN-SUFFIX, sc-prod.net
+DOMAIN-SUFFIX, feelinsonice.com
 
 # 具体常用子域名 / CDN
-HOST, cf-st.sc-cdn.net
-HOST, app.snapchat.com
-HOST, accounts.snapchat.com
-HOST, tr.snapchat.com
-HOST, aws.api.snapchat.com
-HOST, us-central1-gcp.api.snapchat.com
-HOST, feelinsonice-hrd.appspot.com
+DOMAIN, cf-st.sc-cdn.net
+DOMAIN, app.snapchat.com
+DOMAIN, accounts.snapchat.com
+DOMAIN, tr.snapchat.com
+DOMAIN, aws.api.snapchat.com
+DOMAIN, us-central1-gcp.api.snapchat.com
+DOMAIN, feelinsonice-hrd.appspot.com
