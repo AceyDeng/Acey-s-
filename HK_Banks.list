@@ -1,35 +1,29 @@
-# 香港主要银行全域直连规则 for Quantumult X
-# 作者: Acey
-# 格式: HOST-SUFFIX（统一由 force-policy 生效）
-# —— 香港主要银行域名（建议直连）——
-#BOC HK
+# Hong Kong Banks
+# For Shadowrocket / Loon / Surge
+# Only explicit domain suffixes are used to avoid broad keyword matches.
+
+# Bank of China (Hong Kong)
 DOMAIN-SUFFIX,bochk.com
 DOMAIN-SUFFIX,bochk01.etnet.com.hk
 DOMAIN-SUFFIX,bochk02.etnet.com.hk
-DOMAIN-KEYWORD,bochk
 
-#恒生银行hangseng
-DOMAIN-KEYWORD,hangseng
+# Hang Seng Bank
+DOMAIN-SUFFIX,hangseng.com
 
-#HSBC HK
+# HSBC Hong Kong / PayMe
 DOMAIN-SUFFIX,hsbc.com.hk
-DOMAIN-KEYWORD,hsbcdigital
-DOMAIN-KEYWORD,paymebiz
-DOMAIN-KEYWORD,codpayment
-DOMAIN-SUFFIX,notey.co
-DOMAIN-KEYWORD,payme-api
 
-#Standchartbank HK
+# Standard Chartered Hong Kong
 DOMAIN-SUFFIX,sc.com
-DOMAIN-KEYWORD,standchartbank
 
-#WELAB HK
-DOMAIN-KEYWORD,welab
+# WeLab Bank
+DOMAIN-SUFFIX,welab.bank
+DOMAIN-SUFFIX,welab.co
 
-#AIRSTAR BANK
-DOMAIN-KEYWORD,airstarbank
-DOMAIN-KEYWORD,elebank
+# EleBank (formerly Airstar Bank)
+DOMAIN-SUFFIX,elebank.com
+DOMAIN-SUFFIX,airstarbank.com
 
-#Za Bank
+# ZA Bank
 DOMAIN-SUFFIX,za.group
-DOMAIN-KEYWORD,zajourney
+DOMAIN-SUFFIX,zajourney.com
