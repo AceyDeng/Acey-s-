@@ -1,5 +1,3 @@
-# === PUBG MOBILE International (No CN Conflict) ===
-
 DOMAIN-SUFFIX,pubgmobile.com
 DOMAIN-SUFFIX,pubgmobile.net
 DOMAIN-SUFFIX,pubgmobile.kr
@@ -7,19 +5,3 @@ DOMAIN-SUFFIX,proximabeta.com
 DOMAIN-SUFFIX,igamecj.com
 DOMAIN-SUFFIX,gcloudcs.com
 DOMAIN-SUFFIX,gcloudsdk.com
-DOMAIN-SUFFIX,cloudsync.net
-# === PUBG MOBILE International IP Ranges (No CN Conflict) ===
-
-# Tencent Cloud Overseas (常用)
-IP-CIDR,129.226.0.0/16,no-resolve
-IP-CIDR,150.109.0.0/16,no-resolve
-
-# Tencent Cloud Global / Proxima Beta
-IP-CIDR,43.152.0.0/16,no-resolve
-IP-CIDR,49.51.0.0/16,no-resolve
-IP-CIDR,62.234.0.0/16,no-resolve
-
-# AWS / 国际服后端 & CDN（常见）
-IP-CIDR,13.32.0.0/15,no-resolve
-IP-CIDR,52.0.0.0/11,no-resolve
-IP-CIDR,18.0.0.0/8,no-resolve
