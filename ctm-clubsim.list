@@ -1,96 +1,22 @@
-# =========================================
-# CTM (Macau) + ClubSIM (Hong Kong) Domain List
-# For Shadowrocket / Loon / Surge
-# =========================================
+# CTM / ClubSIM / Moldtelecom / Vodafone Germany / eSIM.gg
+# All services in this file intentionally use the same Hong Kong policy.
+# DOMAIN-SUFFIX automatically includes all subdomains.
 
-# ===== ClubSIM Hong Kong =====
+# ClubSIM Hong Kong
 DOMAIN-SUFFIX,clubsim.com.hk
-DOMAIN-SUFFIX,www.clubsim.com.hk
-DOMAIN-SUFFIX,account.clubsim.com.hk
-DOMAIN-SUFFIX,app.clubsim.com.hk
-DOMAIN-SUFFIX,api.clubsim.com.hk
-DOMAIN-SUFFIX,static.clubsim.com.hk
-DOMAIN-SUFFIX,cdn.clubsim.com.hk
 
-# ===== CTM Macau =====
+# CTM Macau
 DOMAIN-SUFFIX,ctm.net
-DOMAIN-SUFFIX,www.ctm.net
 DOMAIN-SUFFIX,ctm.com.mo
-DOMAIN-SUFFIX,www.ctm.com.mo
-DOMAIN-SUFFIX,myctm.ctm.net
-DOMAIN-SUFFIX,care.ctm.net
-DOMAIN-SUFFIX,api.ctm.net
-DOMAIN-SUFFIX,static.ctm.net
-DOMAIN-SUFFIX,cdn.ctm.net
-# =========================================
-# Moldtelecom (Moldova) Domain List
-# Including My Moldtelecom
-# For Shadowrocket / Loon / Surge
-# =========================================
 
-# ---- Core ----
+# Moldtelecom Moldova
 DOMAIN-SUFFIX,moldtelecom.md
-DOMAIN-SUFFIX,www.moldtelecom.md
-
-# ---- My Moldtelecom / Account ----
-DOMAIN-SUFFIX,my.moldtelecom.md
-DOMAIN-SUFFIX,client.moldtelecom.md
-DOMAIN-SUFFIX,portal.moldtelecom.md
-
-# ---- Mobile / Services ----
 DOMAIN-SUFFIX,unite.md
-DOMAIN-SUFFIX,www.unite.md
 
-# ---- API / Backend ----
-DOMAIN-SUFFIX,api.moldtelecom.md
-
-# ---- Static / CDN ----
-DOMAIN-SUFFIX,static.moldtelecom.md
-DOMAIN-SUFFIX,cdn.moldtelecom.md
-# ================================
-# Vodafone Germany Domain List
-# ================================
-
-# ---- Core ----
+# Vodafone Germany
 DOMAIN-SUFFIX,vodafone.de
-DOMAIN-SUFFIX,www.vodafone.de
-
-# ---- MeinVodafone / Account ----
 DOMAIN-SUFFIX,meinvodafone.de
-DOMAIN-SUFFIX,login.vodafone.de
-DOMAIN-SUFFIX,accounts.vodafone.de
-
-# ---- Mobile / Services ----
-DOMAIN-SUFFIX,m.vodafone.de
-DOMAIN-SUFFIX,shop.vodafone.de
-DOMAIN-SUFFIX,care.vodafone.de
-
-# ---- API / Backend ----
-DOMAIN-SUFFIX,api.vodafone.de
-DOMAIN-SUFFIX,backend.vodafone.de
-
-# ---- Static / CDN ----
-DOMAIN-SUFFIX,static.vodafone.de
-DOMAIN-SUFFIX,cdn.vodafone.de
 DOMAIN-SUFFIX,vodafonecdn.de
-# ================================
-# eSIM.gg Domain List (Estonia)
-# ================================
 
-# ---- Core ----
+# eSIM.gg
 DOMAIN-SUFFIX,esim.gg
-DOMAIN-SUFFIX,www.esim.gg
-
-# ---- Account / Dashboard ----
-DOMAIN-SUFFIX,account.esim.gg
-DOMAIN-SUFFIX,dashboard.esim.gg
-
-# ---- API / Backend ----
-DOMAIN-SUFFIX,api.esim.gg
-
-# ---- Payment / Checkout ----
-DOMAIN-SUFFIX,checkout.esim.gg
-
-# ---- Static / CDN ----
-DOMAIN-SUFFIX,static.esim.gg
-DOMAIN-SUFFIX,cdn.esim.gg
