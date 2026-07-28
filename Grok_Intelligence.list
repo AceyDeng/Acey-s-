@@ -1,5 +1,5 @@
-# === GROK / xAI ===
+# Grok / xAI
+# DOMAIN-SUFFIX automatically includes all subdomains.
+
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,x.ai
-DOMAIN-SUFFIX,api.x.ai
-DOMAIN-SUFFIX,chat.x.ai
