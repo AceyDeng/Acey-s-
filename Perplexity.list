@@ -1,0 +1,10 @@
+# Perplexity for Shadowrocket
+# Standalone conservative rule set
+# Avoid broad shared CDN / cloud domains; only include Perplexity-owned domains
+# and exact Perplexity-specific resource hosts.
+
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,perplexity.com
+DOMAIN-SUFFIX,pplx.ai
+DOMAIN,pplx-res.cloudinary.com
+DOMAIN,ppl-ai-file-upload.s3.amazonaws.com
