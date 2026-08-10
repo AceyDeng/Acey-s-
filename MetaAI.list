@@ -1,0 +1,6 @@
+# Meta AI for Shadowrocket
+# Standalone conservative rule set
+# Keep isolated from Facebook / Instagram / WhatsApp / Threads shared domains.
+# DOMAIN-SUFFIX,meta.ai also covers subdomains such as www.meta.ai, alpha.meta.ai and l.meta.ai.
+
+DOMAIN-SUFFIX,meta.ai
