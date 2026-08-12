@@ -1,0 +1,8 @@
+[filter_local]
+# Gamma 核心域名
+HOST-SUFFIX, gamma.app
+HOST-SUFFIX, gamma.site
+
+# Gamma 实时编辑 / 通知服务
+# Gamma 官方说明 WebSocket 会连接 *.knock.app
+HOST-SUFFIX, knock.app
