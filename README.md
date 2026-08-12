@@ -13,6 +13,9 @@
 ![Language](https://img.shields.io/badge/docs-中文%20%2F%20English-blueviolet?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/AceyDeng/Acey-s-?style=for-the-badge)
 
+**Built for control. Maintained for clarity.**  
+**为掌控而构建，为清晰而维护。**
+
 </div>
 
 ---
@@ -28,11 +31,53 @@
 - DNS 相关配置
 - 广告与请求拦截规则
 - Rewrite / MITM 配置片段
-- AI、Apple、地图、金融、社交与其他服务的专项规则
+- AI、Apple、地图、金融、通信、社交、游戏与其他服务的专项规则
 
-它不是一个追求“大而全”的公共规则库，而是一套围绕实际设备、网络环境与个人使用习惯逐步打磨的 **Personal Network Infrastructure**。
+它不是一个追求“大而全”的公共规则库，而是一套围绕实际设备、真实网络环境与个人使用习惯逐步打磨的 **Personal Network Infrastructure**。
 
 > **目标不是堆规则，而是让每一条规则都有明确用途。**
+
+---
+
+## 🌐 Featured Rule Index / 核心规则索引
+
+这些文件属于当前长期规则栈中的核心入口。  
+These files are part of the current long-term personal routing stack.
+
+### 🤖 AI & Intelligence / AI 与智能服务
+
+| Rule | 中文 | English |
+|---|---|---|
+| [`Perplexity.list`](./Perplexity.list) | Perplexity AI 核心域名规则 | Conservative Perplexity AI routing rules |
+| [`Gamma.list`](./Gamma.list) | Gamma 核心服务与实时编辑相关域名 | Gamma core services and realtime editing endpoints |
+| [`Grok_Intelligence.list`](./Grok_Intelligence.list) | Grok / xAI 专项域名规则 | Grok and xAI routing rules |
+| [`Apple_Intelligence.list`](./Apple_Intelligence.list) | Apple Intelligence 相关服务域名 | Apple Intelligence service domains |
+
+### 🎮 Gaming & Voice / 游戏与语音
+
+| Rule | 中文 | English |
+|---|---|---|
+| [`PUBG.list`](./PUBG.list) | PUBG Mobile 相关服务域名 | PUBG Mobile related service domains |
+| [`HPJY.list`](./HPJY.list) | 和平精英相关网络域名 | Routing rules for 和平精英 services |
+| [`TT.list`](./TT.list) | TT 语音及相关服务域名 | TT voice and related service domains |
+
+### 💳 Finance & Payments / 金融与支付
+
+| Rule | 中文 | English |
+|---|---|---|
+| [`HK_Banks.list`](./HK_Banks.list) | 香港主要银行及相关金融服务 | Major Hong Kong banking service domains |
+| [`octopus-hk.list`](./octopus-hk.list) | 香港八达通 / O! ePay 相关服务 | Hong Kong Octopus / O! ePay domains |
+| [`yahoo.list`](./yahoo.list) | Yahoo Mail、Finance、News 等服务 | Yahoo Mail, Finance, News and related services |
+
+### 📡 Telecom & Connectivity / 通信与连接
+
+| Rule | 中文 | English |
+|---|---|---|
+| [`ctm-clubsim.list`](./ctm-clubsim.list) | CTM、ClubSIM、Moldtelecom、Vodafone DE、eSIM.gg 等统一策略域名 | Shared routing set for CTM, ClubSIM, Moldtelecom, Vodafone DE, eSIM.gg and related services |
+| [`Tello.list`](./Tello.list) | Tello 与相关移动服务 API 域名 | Tello and related mobile-service API domains |
+
+> 新增长期使用的规则文件时，应同步把入口加入 README。  
+> When a new rule becomes part of the long-term stack, add its entry to this README as well.
 
 ---
 
@@ -41,16 +86,17 @@
 | 分类 | 文件示例 | 用途 |
 |---|---|---|
 | 🍎 Apple | [`AppleCore.list`](./AppleCore.list) · [`Apple_Intelligence.list`](./Apple_Intelligence.list) | Apple 核心服务与 Apple Intelligence 分流 |
-| 🤖 AI / Productivity | [`Gamma.list`](./Gamma.list) · [`Grok_Intelligence.list`](./Grok_Intelligence.list) | AI 与生产力服务专项规则 |
+| 🤖 AI / Productivity | [`Perplexity.list`](./Perplexity.list) · [`Gamma.list`](./Gamma.list) · [`Grok_Intelligence.list`](./Grok_Intelligence.list) | AI 与生产力服务专项规则 |
 | 🗺️ Maps | [`Amap.conf`](./Amap.conf) | 高德地图相关 Rewrite / 广告请求处理 |
 | 🌏 Region / Direct | [`China.list`](./China.list) · [`Douyin_Direct.list`](./Douyin_Direct.list) | 中国大陆及指定服务直连策略 |
-| 💬 Social | [`Discord.list`](./Discord.list) · [`Kwai.list`](./Kwai.list) | 社交与内容平台规则 |
-| 🏦 Finance | [`HK_Banks.list`](./HK_Banks.list) | 香港银行及金融服务相关规则 |
-| 🧩 Services | [`GitHub.list`](./GitHub.list) · [`HPJY.list`](./HPJY.list) | 独立服务和自定义场景分流 |
+| 💬 Social / Services | [`Discord.list`](./Discord.list) · [`Kwai.list`](./Kwai.list) · [`yahoo.list`](./yahoo.list) | 社交、内容与独立服务规则 |
+| 🎮 Gaming | [`PUBG.list`](./PUBG.list) · [`HPJY.list`](./HPJY.list) · [`TT.list`](./TT.list) | 游戏及相关语音服务规则 |
+| 🏦 Finance | [`HK_Banks.list`](./HK_Banks.list) · [`octopus-hk.list`](./octopus-hk.list) | 香港银行与支付服务规则 |
+| 📡 Telecom | [`ctm-clubsim.list`](./ctm-clubsim.list) · [`Tello.list`](./Tello.list) | 移动运营商、eSIM 与通信服务规则 |
 | 🛡️ Rewrite / Blocking | [`JD.conf`](./JD.conf) · [`KuaiShou_AdBlock.conf`](./KuaiShou_AdBlock.conf) | Rewrite、广告拦截与请求控制 |
 | 🌐 DNS | [`DNS.conf`](./DNS.conf) | DNS 与解析相关配置 |
 
-> 仓库会继续演化。新增规则时，README 也应同步增加对应入口，避免规则文件逐渐变成不可维护的“文件堆”。
+> 仓库会继续演化。README 应始终承担“总入口”的角色，避免规则文件逐渐变成不可维护的文件堆。
 
 ---
 
@@ -60,7 +106,7 @@
 只保留真正有用途的规则，避免无意义地扩大匹配范围。
 
 **2. 服务隔离**  
-尽量将 Apple、AI、地图、金融、社交等不同服务拆分维护，降低单一规则文件的复杂度。
+尽量将 Apple、AI、地图、金融、通信、社交、游戏等不同服务拆分维护，降低单一规则文件的复杂度。
 
 **3. 可读、可查、可维护**  
 文件名应尽量直接表达用途；重要规则应保留必要注释。
@@ -68,7 +114,10 @@
 **4. 不把异常当功能**  
 规则失效、域名变化或服务行为变化时，应重新验证，而不是依赖历史结果。
 
-**5. 安全边界明确**  
+**5. 最小影响范围**  
+能只匹配目标服务，就不扩大到共享 CDN、云平台或无关域名。
+
+**6. 安全边界明确**  
 公开仓库中不应提交 API Key、Token、Cookie、私人订阅地址或其他凭据。
 
 ---
@@ -100,7 +149,7 @@ It brings together practical rules for:
 - DNS-related configuration
 - Request and advertisement blocking
 - Rewrite / MITM workflows
-- Dedicated routing for AI, Apple, maps, finance, social platforms, and other services
+- Dedicated routing for AI, Apple, maps, finance, telecom, social platforms, gaming, and other services
 
 This is not intended to be a massive one-size-fits-all public ruleset. It is a **personal network infrastructure repository** designed around actual devices, real network conditions, and long-term maintainability.
 
@@ -116,11 +165,12 @@ A reliable rule stack should be:
 - **Modular** — unrelated services should not be unnecessarily coupled.
 - **Maintainable** — filenames, comments, and structure should remain understandable months later.
 - **Verifiable** — dynamic service behavior and domain changes should be re-checked when needed.
+- **Minimal in blast radius** — avoid unnecessarily broad shared-CDN or cloud-platform matches.
 - **Safe** — credentials and private subscription data must never be committed to a public repository.
 
 ---
 
-### 🚦Compatibility Note
+### 🚦 Compatibility Note
 
 Files in this repository may use different syntaxes and may target different proxy-client modules.
 
@@ -168,9 +218,13 @@ When adding a new rule file:
 
 <div align="center">
 
-### Built for control. Maintained for clarity.
-### 为掌控而构建，为清晰而维护。
+## ⚡ ACEY NETWORK RULESET
+
+**Route with intent. Keep the network under control.**  
+**让每一条流量，都去它该去的地方。**
 
 **Acey-s- · Personal Network Infrastructure**
+
+Maintained by **AceyDeng**
 
 </div>
