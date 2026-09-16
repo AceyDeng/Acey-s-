@@ -29,3 +29,4 @@ DOMAIN,mask.icloud.com
 
 # Apple Intelligence 资源
 DOMAIN-SUFFIX,apps.mzstatic.com
+DOMAIN-SUFFIX,api-siri-prod.apple.com
