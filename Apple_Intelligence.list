@@ -17,6 +17,7 @@ DOMAIN,gspe1-ssl.ls.apple.com
 
 # iCloud / Apple Intelligence Gateway
 DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,gateway.icloud.com.cn
 
 # Private Relay / Apple AI 相关认证
 DOMAIN,mask-api.icloud.com
