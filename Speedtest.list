@@ -1,0 +1,58 @@
+# Speedtest / 网络测速
+# Shadowrocket RULE-SET
+# 用于将常见测速站流量统一分流到 SPEEDTEST 策略组
+# 规则刻意偏宽，方便节点测速时无需切换全局代理
+
+# Ookla / Speedtest
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,ooklaserver.net
+DOMAIN-SUFFIX,cdnst.net
+DOMAIN-SUFFIX,speedtestcustom.com
+DOMAIN-KEYWORD,speedtest
+DOMAIN-KEYWORD,ookla
+
+# Cloudflare Speed Test
+DOMAIN,speed.cloudflare.com
+
+# Fast.com
+DOMAIN-SUFFIX,fast.com
+
+# Measurement Lab / Google NDT
+DOMAIN-SUFFIX,measurementlab.net
+DOMAIN-SUFFIX,measurement-lab.org
+DOMAIN-KEYWORD,measurementlab
+DOMAIN-KEYWORD,mlab
+
+# nPerf
+DOMAIN-SUFFIX,nperf.com
+DOMAIN-SUFFIX,nperf.net
+DOMAIN-KEYWORD,nperf
+
+# OpenSpeedTest
+DOMAIN-SUFFIX,openspeedtest.com
+DOMAIN-KEYWORD,openspeedtest
+
+# SpeedOf.Me
+DOMAIN-SUFFIX,speedof.me
+
+# TestMy.net
+DOMAIN-SUFFIX,testmy.net
+
+# Speedcheck
+DOMAIN-SUFFIX,speedcheck.org
+DOMAIN-SUFFIX,speedcheck.io
+
+# Speed.io
+DOMAIN-SUFFIX,speed.io
+
+# 中国测速网
+DOMAIN-SUFFIX,speedtest.cn
+
+# 中科大测速
+DOMAIN,test.ustc.edu.cn
+
+# 宽泛兜底：常见自建测速域名关键词
+DOMAIN-KEYWORD,speed-test
+DOMAIN-KEYWORD,speed_test
+DOMAIN-KEYWORD,bandwidth-test
+DOMAIN-KEYWORD,bandwidthtest
