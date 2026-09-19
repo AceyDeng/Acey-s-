@@ -1,18 +1,25 @@
 # Change IP
 # Shadowrocket RULE-SET
 # 仅用于 IP 属地相关分流；策略在主配置中指定
+# 目标：只代理抖音 / 快手的属地与 API 请求，避免把视频 CDN 一起代理
 
 # Douyin / 抖音
+DOMAIN-KEYWORD,core-c-lq
+DOMAIN-KEYWORD,core-lq
+DOMAIN-KEYWORD,normal-c-lq
+DOMAIN-KEYWORD,normal-lq
+DOMAIN-KEYWORD,search-quic-lq
+DOMAIN-KEYWORD,search-lq
+DOMAIN-KEYWORD,-normal-hl
+DOMAIN-KEYWORD,-normal-c-hl
+DOMAIN-KEYWORD,-core-c-hl
+DOMAIN-KEYWORD,-normal-lf
+DOMAIN-KEYWORD,-normal-c-lf
+DOMAIN-KEYWORD,-core-c-lf
+DOMAIN,sso.douyin.com
+DOMAIN,www.douyin.com
 DOMAIN-SUFFIX,snssdk.com
-DOMAIN-SUFFIX,amemv.com
 
 # Kuaishou / 快手
 DOMAIN-SUFFIX,gifshow.com
 DOMAIN-SUFFIX,ksapisrv.com
-
-# Xiaohongshu / 小红书
-DOMAIN,edith.xiaohongshu.com
-
-# TT语音
-# 52tt.com 为候选域名族；尚未确认是专用 IP 属地接口
-DOMAIN-SUFFIX,52tt.com
