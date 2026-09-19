@@ -1,0 +1,7 @@
+# iCloud Private Relay / iCloud 私密传送
+# Shadowrocket RULE-SET
+# 仅包含 Apple 官方 Private Relay 相关核心域名
+
+DOMAIN,mask.icloud.com
+DOMAIN,mask-h2.icloud.com
+DOMAIN,mask-api.icloud.com
