@@ -1,6 +1,6 @@
 # Gamma 核心域名
-DOMAIN-SUFFIX, gamma.app
-DOMAIN-SUFFIX, gamma.site
+DOMAIN-SUFFIX,gamma.app
+DOMAIN-SUFFIX,gamma.site
 
 # Gamma 实时编辑 / 通知服务
 # Gamma 官方说明 WebSocket 会连接 *.knock.app
