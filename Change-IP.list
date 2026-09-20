@@ -9,15 +9,13 @@
 #    DOMAIN,v9-awememusicpgc.amemv.com,DIRECT
 #    放在本 RULE-SET 前面。
 # 3. 其他未命中的视频、图片、CDN、RTC 流量可继续向下匹配 ChinaMax → DIRECT。
-# 4. 抖音 / 小红书规则参考 anti-ip-attribution 项目的 Surge 规则补强；
+# 4. 抖音 / 小红书规则按 GitHub 上的 anti-ip-attribution / FakeLocation 规则精简；
 #    快手与 TT 语音保持原样不动。
+# 5. 小红书 tracker.xiaohongshu.com 应在主配置中单独 REJECT，
+#    不放进本 RULE-SET，否则会被套用 CHANGE IP 策略。
 
 # Douyin / 抖音
-# 核心归属地 / API 域名
-DOMAIN,sso.douyin.com
-DOMAIN,www.douyin.com
-DOMAIN-SUFFIX,snssdk.com
-DOMAIN-SUFFIX,amemv.com
+# 精确归属地 / API 相关规则
 DOMAIN-KEYWORD,core-c-lq
 DOMAIN-KEYWORD,core-lq
 DOMAIN-KEYWORD,normal-c-lq
@@ -30,6 +28,9 @@ DOMAIN-KEYWORD,-core-c-hl
 DOMAIN-KEYWORD,-normal-lf
 DOMAIN-KEYWORD,-normal-c-lf
 DOMAIN-KEYWORD,-core-c-lf
+DOMAIN,sso.douyin.com
+DOMAIN,www.douyin.com
+DOMAIN-SUFFIX,snssdk.com
 
 # Kuaishou / 快手
 DOMAIN-SUFFIX,gifshow.com
@@ -39,83 +40,5 @@ DOMAIN-SUFFIX,ksapisrv.com
 DOMAIN,apiv2.tses.net
 
 # Xiaohongshu / 小红书
-# 域名覆盖
-DOMAIN-SUFFIX,xiaohongshu.com
-DOMAIN-KEYWORD,xiaohongshu
-
-# edith.xiaohongshu.com 已知解析 IP
-# 用于 iOS/Surge 遇到直接 IP 连接、未经过普通域名匹配的情况
-IP-CIDR,114.55.236.88/32,no-resolve
-IP-CIDR,47.97.64.97/32,no-resolve
-IP-CIDR,47.97.66.48/32,no-resolve
-IP-CIDR,81.69.116.86/32,no-resolve
-IP-CIDR,119.45.249.52/32,no-resolve
-IP-CIDR,81.69.116.87/32,no-resolve
-IP-CIDR,119.45.2.92/32,no-resolve
-IP-CIDR,1.13.12.27/32,no-resolve
-IP-CIDR,81.69.116.102/32,no-resolve
-IP-CIDR,43.159.25.122/32,no-resolve
-IP-CIDR,43.159.25.28/32,no-resolve
-IP-CIDR,47.246.29.223/32,no-resolve
-IP-CIDR,47.246.29.226/32,no-resolve
-IP-CIDR,47.246.29.227/32,no-resolve
-IP-CIDR,47.246.29.225/32,no-resolve
-IP-CIDR,47.246.29.224/32,no-resolve
-IP-CIDR,47.246.29.222/32,no-resolve
-IP-CIDR,47.246.29.229/32,no-resolve
-IP-CIDR,47.246.29.228/32,no-resolve
-IP-CIDR,211.152.149.12/32,no-resolve
-IP-CIDR,49.51.224.95/32,no-resolve
-IP-CIDR,43.175.44.15/32,no-resolve
-IP-CIDR,23.236.104.30/32,no-resolve
-IP-CIDR,43.132.81.61/32,no-resolve
-IP-CIDR,101.33.27.26/32,no-resolve
-IP-CIDR,43.152.29.38/32,no-resolve
-IP-CIDR,43.152.26.110/32,no-resolve
-IP-CIDR,101.33.11.32/32,no-resolve
-IP-CIDR,163.181.1.228/32,no-resolve
-IP-CIDR,163.181.1.226/32,no-resolve
-IP-CIDR,163.181.1.230/32,no-resolve
-IP-CIDR,163.181.1.227/32,no-resolve
-IP-CIDR,163.181.1.231/32,no-resolve
-IP-CIDR,163.181.1.229/32,no-resolve
-IP-CIDR,163.181.1.224/32,no-resolve
-IP-CIDR,163.181.1.225/32,no-resolve
-IP-CIDR,47.246.23.230/32,no-resolve
-IP-CIDR,47.246.23.234/32,no-resolve
-IP-CIDR,47.246.23.228/32,no-resolve
-IP-CIDR,47.246.23.233/32,no-resolve
-IP-CIDR,47.246.23.231/32,no-resolve
-IP-CIDR,47.246.23.232/32,no-resolve
-IP-CIDR,47.246.23.227/32,no-resolve
-IP-CIDR,47.246.23.229/32,no-resolve
-IP-CIDR,43.152.42.109/32,no-resolve
-IP-CIDR,43.175.22.27/32,no-resolve
-IP-CIDR,43.175.22.42/32,no-resolve
-IP-CIDR,43.175.22.26/32,no-resolve
-IP-CIDR,43.132.84.11/32,no-resolve
-IP-CIDR,101.33.20.34/32,no-resolve
-IP-CIDR,49.51.224.105/32,no-resolve
-IP-CIDR,49.51.224.103/32,no-resolve
-IP-CIDR,163.181.92.232/32,no-resolve
-IP-CIDR,163.181.92.233/32,no-resolve
-IP-CIDR,163.181.92.237/32,no-resolve
-IP-CIDR,163.181.92.238/32,no-resolve
-IP-CIDR,163.181.92.231/32,no-resolve
-IP-CIDR,163.181.92.234/32,no-resolve
-IP-CIDR,163.181.92.236/32,no-resolve
-IP-CIDR,163.181.92.235/32,no-resolve
-IP-CIDR,43.132.83.175/32,no-resolve
-IP-CIDR,43.132.83.54/32,no-resolve
-IP-CIDR,43.132.83.9/32,no-resolve
-IP-CIDR,43.132.91.37/32,no-resolve
-IP-CIDR,43.132.91.110/32,no-resolve
-IP-CIDR,43.132.91.45/32,no-resolve
-IP-CIDR,150.109.222.109/32,no-resolve
-IP-CIDR,150.109.222.102/32,no-resolve
-IP-CIDR,150.109.222.97/32,no-resolve
-IP-CIDR,150.109.223.49/32,no-resolve
-IP-CIDR,150.109.222.103/32,no-resolve
-IP-CIDR,150.109.222.99/32,no-resolve
-IP-CIDR,150.109.222.110/32,no-resolve
-IP-CIDR,203.205.220.62/32,no-resolve
+DOMAIN,edith.xiaohongshu.com
+DOMAIN,www.xiaohongshu.com
