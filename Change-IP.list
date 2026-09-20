@@ -1,6 +1,6 @@
 # AC's Main Change IP
 # Shadowrocket / Surge RULE-SET
-# 仅用于抖音 / 快手 / TT语音 / 小红书 IP 属地与核心 API 分流
+# 仅用于抖音 / 快手 / TT语音 IP 属地与核心 API 分流
 # 策略由主配置中的 RULE-SET 指定，例如：...,CHANGE IP
 #
 # 注意：
@@ -9,10 +9,7 @@
 #    DOMAIN,v9-awememusicpgc.amemv.com,DIRECT
 #    放在本 RULE-SET 前面。
 # 3. 其他未命中的视频、图片、CDN、RTC 流量可继续向下匹配 ChinaMax → DIRECT。
-# 4. 抖音 / 小红书规则按 GitHub 上的 anti-ip-attribution / FakeLocation 规则精简；
-#    快手与 TT 语音保持原样不动。
-# 5. 小红书 tracker.xiaohongshu.com 应在主配置中单独 REJECT，
-#    不放进本 RULE-SET，否则会被套用 CHANGE IP 策略。
+# 4. 快手与 TT 语音保持原样不动。
 
 # Douyin / 抖音
 # 精确归属地 / API 相关规则
@@ -38,7 +35,3 @@ DOMAIN-SUFFIX,ksapisrv.com
 
 # TT语音
 DOMAIN,apiv2.tses.net
-
-# Xiaohongshu / 小红书
-DOMAIN,edith.xiaohongshu.com
-DOMAIN,www.xiaohongshu.com
