@@ -13,6 +13,8 @@ DOMAIN-KEYWORD,ookla
 
 # Cloudflare Speed Test
 DOMAIN,speed.cloudflare.com
+DOMAIN,ip-api.com
+DOMAIN,cp.cloudflare.com
 
 # Fast.com
 DOMAIN-SUFFIX,fast.com
