@@ -1,7 +1,6 @@
 # Siri
 DOMAIN,guzzoni.apple.com
 DOMAIN-SUFFIX,smoot.apple.com
-DOMAIN-KEYWORD,siri
 
 # Apple Intelligence / Private Cloud Compute
 DOMAIN-SUFFIX,apple-relay.apple.com
