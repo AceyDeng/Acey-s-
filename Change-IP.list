@@ -1,41 +1,21 @@
 # AC's Main Change IP
 # Shadowrocket / Surge RULE-SET
-# 仅用于抖音 / 快手 / TT语音 IP 属地与核心 API 分流
+# 用于抖音 / 快手 / TT语音 IP 属地分流
 # 策略由主配置中的 RULE-SET 指定，例如：...,CHANGE IP
 #
+# 当前为抖音“宽匹配测试阶段”：
+# 先让整个 amemv.com 走 CHANGE IP，确认 IP 属地能够成功变化；
+# 成功后再根据 Surge 最近请求逐步缩小到精确 DOMAIN。
+#
 # 注意：
-# 1. 抖音仅保留用于 IP 属地相关 API 族的精确 DOMAIN，避免整个 amemv.com / snssdk.com 被代理。
-# 2. 主配置中请将本 RULE-SET 放在 TikTok 规则前面；本列表只会优先命中下面列出的精确抖音主机。
-# 3. 其他未命中的抖音视频、图片、音乐、CDN、RTC 流量继续向下匹配，不进入 CHANGE IP。
+# 1. 这里只放抖音 amemv.com，不放整个 snssdk.com，避免与 TikTok 共享域名产生额外冲突。
+# 2. 抖音视频、图片、音乐等 amemv.com 流量在测试阶段也可能暂时走 CHANGE IP。
+# 3. 测试成功后会再逐步删减，只保留真正影响 IP 属地的精确域名。
 # 4. 快手与 TT 语音保持原样不动。
 
 # Douyin / 抖音
-# IP 属地相关精确 API
-
-# LQ
-DOMAIN,api3-normal-c-lq.amemv.com
-DOMAIN,api3-core-c-lq.amemv.com
-DOMAIN,api5-core-c-lq.amemv.com
-DOMAIN,api100-core-c-lq.amemv.com
-DOMAIN,api3-normal-c-lq.snssdk.com
-DOMAIN,api5-normal-c-lq.snssdk.com
-DOMAIN,search3-search-lq.amemv.com
-DOMAIN,search5-search-lq.amemv.com
-
-# HL
-DOMAIN,api3-normal-c-hl.amemv.com
-DOMAIN,api3-core-c-hl.amemv.com
-DOMAIN,api100-core-c-hl.amemv.com
-DOMAIN,api3-normal-c-hl.snssdk.com
-DOMAIN,api5-normal-c-hl.snssdk.com
-
-# LF
-DOMAIN,api6-core-lf.amemv.com
-DOMAIN,api3-normal-c-lf.amemv.com
-DOMAIN,api3-core-c-lf.amemv.com
-DOMAIN,api100-core-c-lf.amemv.com
-DOMAIN,api3-normal-c-lf.snssdk.com
-DOMAIN,api5-normal-c-lf.snssdk.com
+# 宽匹配测试：确认 IP 属地是否能够改变
+DOMAIN-SUFFIX,amemv.com
 
 # Kuaishou / 快手
 DOMAIN-SUFFIX,gifshow.com
