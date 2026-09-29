@@ -3,19 +3,15 @@
 # 用于抖音 / 快手 / TT语音 IP 属地分流
 # 策略由主配置中的 RULE-SET 指定，例如：...,CHANGE IP
 #
-# 当前为抖音“宽匹配测试阶段”：
-# 先让整个 amemv.com 走 CHANGE IP，确认 IP 属地能够成功变化；
-# 成功后再根据 Surge 最近请求逐步缩小到精确 DOMAIN。
-#
-# 注意：
-# 1. 这里只放抖音 amemv.com，不放整个 snssdk.com，避免与 TikTok 共享域名产生额外冲突。
-# 2. 抖音视频、图片、音乐等 amemv.com 流量在测试阶段也可能暂时走 CHANGE IP。
-# 3. 测试成功后会再逐步删减，只保留真正影响 IP 属地的精确域名。
+# 抖音当前采用“媒体直连 + API 代理”结构：
+# 1. 抖音明确的媒体 / CDN / 图片 / 音乐域名应在主配置中优先 DIRECT。
+# 2. TikTok / 字节系共享规则放在其后。
+# 3. 剩余 amemv.com 与 snssdk.com 再进入 CHANGE IP。
 # 4. 快手与 TT 语音保持原样不动。
 
 # Douyin / 抖音
-# 宽匹配测试：确认 IP 属地是否能够改变
 DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,snssdk.com
 
 # Kuaishou / 快手
 DOMAIN-SUFFIX,gifshow.com
