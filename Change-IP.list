@@ -4,30 +4,37 @@
 # 策略由主配置中的 RULE-SET 指定，例如：...,CHANGE IP
 #
 # 注意：
-# 1. TikTok 规则应放在本 RULE-SET 前面，因为 TikTok 与抖音共享 snssdk.com。
-# 2. 如需避免抖音音乐媒体误走代理，请在主配置中把
-#    DOMAIN,v9-awememusicpgc.amemv.com,DIRECT
-#    放在本 RULE-SET 前面。
-# 3. 其他未命中的视频、图片、CDN、RTC 流量可继续向下匹配 ChinaMax → DIRECT。
+# 1. 抖音仅保留用于 IP 属地相关 API 族的精确 DOMAIN，避免整个 amemv.com / snssdk.com 被代理。
+# 2. 主配置中请将本 RULE-SET 放在 TikTok 规则前面；本列表只会优先命中下面列出的精确抖音主机。
+# 3. 其他未命中的抖音视频、图片、音乐、CDN、RTC 流量继续向下匹配，不进入 CHANGE IP。
 # 4. 快手与 TT 语音保持原样不动。
 
 # Douyin / 抖音
-# 精确归属地 / API 相关规则
-DOMAIN-KEYWORD,core-c-lq
-DOMAIN-KEYWORD,core-lq
-DOMAIN-KEYWORD,normal-c-lq
-DOMAIN-KEYWORD,normal-lq
-DOMAIN-KEYWORD,search-quic-lq
-DOMAIN-KEYWORD,search-lq
-DOMAIN-KEYWORD,-normal-hl
-DOMAIN-KEYWORD,-normal-c-hl
-DOMAIN-KEYWORD,-core-c-hl
-DOMAIN-KEYWORD,-normal-lf
-DOMAIN-KEYWORD,-normal-c-lf
-DOMAIN-KEYWORD,-core-c-lf
-DOMAIN,sso.douyin.com
-DOMAIN,www.douyin.com
-DOMAIN-SUFFIX,snssdk.com
+# IP 属地相关精确 API
+
+# LQ
+DOMAIN,api3-normal-c-lq.amemv.com
+DOMAIN,api3-core-c-lq.amemv.com
+DOMAIN,api5-core-c-lq.amemv.com
+DOMAIN,api100-core-c-lq.amemv.com
+DOMAIN,api3-normal-c-lq.snssdk.com
+DOMAIN,api5-normal-c-lq.snssdk.com
+DOMAIN,search3-search-lq.amemv.com
+DOMAIN,search5-search-lq.amemv.com
+
+# HL
+DOMAIN,api3-normal-c-hl.amemv.com
+DOMAIN,api3-core-c-hl.amemv.com
+DOMAIN,api100-core-c-hl.amemv.com
+DOMAIN,api3-normal-c-hl.snssdk.com
+DOMAIN,api5-normal-c-hl.snssdk.com
+
+# LF
+DOMAIN,api3-normal-c-lf.amemv.com
+DOMAIN,api3-core-c-lf.amemv.com
+DOMAIN,api100-core-c-lf.amemv.com
+DOMAIN,api3-normal-c-lf.snssdk.com
+DOMAIN,api5-normal-c-lf.snssdk.com
 
 # Kuaishou / 快手
 DOMAIN-SUFFIX,gifshow.com
