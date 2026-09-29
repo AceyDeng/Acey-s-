@@ -30,6 +30,7 @@ DOMAIN,api3-normal-c-hl.snssdk.com
 DOMAIN,api5-normal-c-hl.snssdk.com
 
 # LF
+DOMAIN,api6-core-lf.amemv.com
 DOMAIN,api3-normal-c-lf.amemv.com
 DOMAIN,api3-core-c-lf.amemv.com
 DOMAIN,api100-core-c-lf.amemv.com
