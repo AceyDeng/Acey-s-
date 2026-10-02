@@ -1,18 +1,3 @@
-# AC's Main Change IP
-# Shadowrocket / Surge RULE-SET
-# 用于抖音 / 快手 / TT语音 IP 属地分流
-# 策略由主配置中的 RULE-SET 指定，例如：...,CHANGE IP
-#
-# 抖音当前采用“媒体直连 + API 代理”结构：
-# 1. 抖音明确的媒体 / CDN / 图片 / 音乐域名应在主配置中优先 DIRECT。
-# 2. TikTok / 字节系共享规则放在其后。
-# 3. 剩余 amemv.com 与 snssdk.com 再进入 CHANGE IP。
-# 4. 快手与 TT 语音保持原样不动。
-
-# Douyin / 抖音
-DOMAIN-SUFFIX,amemv.com
-DOMAIN-SUFFIX,snssdk.com
-
 # Kuaishou / 快手
 DOMAIN-SUFFIX,gifshow.com
 DOMAIN-SUFFIX,ksapisrv.com
