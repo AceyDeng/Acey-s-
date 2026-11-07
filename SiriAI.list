@@ -45,11 +45,6 @@ DOMAIN,metrics.icloud.com
 # ===== Apple DNS =====
 DOMAIN,doh.dns.apple.com
 
-# ===== 天氣資料 =====
-DOMAIN,weatherkit.apple.com
-DOMAIN,weather-data.apple.com
-DOMAIN,weather-data-origin.apple.com
-
 # ===== Apple 應用資源 =====
 DOMAIN,aapps.mzstatic.com
 DOMAIN,apps.mzstatic.com
